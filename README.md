@@ -46,26 +46,26 @@ Une fois le bundle installé, vous pouvez l'utiliser dans votre projet Symfony. 
 
 2. **Les formules prises en charge**
     Le bundle prend en charge plusieurs formules, telles que :
-    * « MOYENNE » (Moyenne)
-    * « SUM » (Somme)
-    * « PRODUCT » (Produit)
-    * « MAX » (Maximum)
-    * « MIN » (Minimum)
-    * « MIN » (Minimum)
-    * « ARRONDI » (Arrondir)
-    * « PUISSANCE » (Puissance)
-    * « CONCAT » (Concaténation)
-    * « GAUCHE » (STXT vers la gauche)
-    * « DROITE » (STXT vers la droite)
-    * « DATE_AJOUT » (Ajoute des jours à une date)
-    * « DATEDIF » (Diffèrence de jours entre deux dates)
-    * « SI » (Condition SI)
-    * « EXP » (Fonction exponentielle)
-    * « LOG » (Fonction logarithme)
-    * « COS » (Fonction cosinus)
-    * « SIN » (Fonction sinus)
-    * « TAN » (Fonction tangente)
-    * « PI » (π)
+    * `MOYENNE` (Moyenne)
+    * `SUM` (Somme)
+    * `PRODUCT` (Produit)
+    * `MAX` (Maximum)
+    * `MIN` (Minimum)
+    * `MIN` (Minimum)
+    * `ARRONDI` (Arrondir)
+    * `PUISSANCE` (Puissance)
+    * `CONCAT` (Concaténation)
+    * `GAUCHE` (STXT vers la gauche)
+    * `DROITE` (STXT vers la droite)
+    * `DATE_AJOUT` (Ajoute des jours à une date)
+    * `DATEDIF` (Diffèrence de jours entre deux dates)
+    * `SI` (Condition SI)
+    * `EXP` (Fonction exponentielle)
+    * `LOG` (Fonction logarithme)
+    * `COS` (Fonction cosinus)
+    * `SIN` (Fonction sinus)
+    * `TAN` (Fonction tangente)
+    * `PI` (π)
 
 ## Exemple de resultat 🧑‍💻
 
@@ -98,8 +98,8 @@ php bin/phpunit src/ExcelFormulaBundle/Tests
 ## Dépendances ⚙️
 
 Le **ExcelFormulaBundle** requiert :
-    * Symfony « >= 7.0 »
-    * PHP « >= 8.0 »
+    * Symfony `>= 7.0`
+    * PHP `>= 8.0`
     * Composer pour la gestion des dépendances
 
 ## Contribuer 👨‍💻
