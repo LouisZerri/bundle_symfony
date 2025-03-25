@@ -98,9 +98,9 @@ php bin/phpunit src/ExcelFormulaBundle/Tests
 ## Dépendances ⚙️
 
 Le **ExcelFormulaBundle** requiert :
-    * Symfony « >= 7.0 »
-    * PHP « >= 8.0 »
-    * Composer pour la gestion des dépendances
+* Symfony « >= 7.0 »
+* PHP « >= 8.0 »
+* Composer pour la gestion des dépendances
 
 ## Contribuer 👨‍💻
 
