@@ -1,0 +1,5 @@
+services:
+    # Déclare automatiquement tous les services du bundle
+    ExcelFormulaBundle\:
+        resource: '../../*'
+        exclude: '../../{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'
