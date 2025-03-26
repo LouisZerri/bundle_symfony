@@ -45,6 +45,7 @@ Une fois le bundle installé, vous pouvez l'utiliser dans votre projet Symfony. 
     {% endblock %}
 
 2. **Les formules prises en charge**
+   
     Le bundle prend en charge plusieurs formules, telles que :
     * `MOYENNE` (Moyenne)
     * `SUM` (Somme)
