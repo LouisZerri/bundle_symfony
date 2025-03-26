@@ -26,7 +26,7 @@ Pour installer le **ExcelFormulaBundle** dans votre projet Symfony, suivez les Ã
     excel_formula_bundle:
         resource: "@ExcelFormulaBundle/Resources/config/routes.yaml"
         prefix: /
-4. **Configuration de twig pour enregistrer le chemin du template du bundle**
+4. **Configuration de twig pour enregistrer le chemin du template du bundle :**
     Ajouter cette ligne dans config/packages/twig.yaml du projet Symfony pour qu'il prenne en compte les templates du bundle
     ```yaml
     paths:
