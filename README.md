@@ -36,7 +36,7 @@ Pour installer le **ExcelFormulaBundle** dans votre projet Symfony, suivez les �
 
 Une fois le bundle installé, vous pouvez l'utiliser dans votre projet Symfony. Voici les étapes pour commencer :
 
-1. **Injection du template twig du bundle dans une vue du projet Symfony**
+1. **Injection du template twig du bundle dans une vue du projet Symfony :**
     Le bundle correspond à une colonne formule ou vous pouvez saisir dynamiquement des formules au seins de l'input et après avoir appuyez sur la touche entré, il calcul et change en remplaçant par la valeur avec la formule qui a été utilisée. Voici donc comment inclure la colonne dans une vue twig d'un projet Symfony :
     ```twig
     {% extends 'base.html.twig' %}
@@ -44,9 +44,8 @@ Une fois le bundle installé, vous pouvez l'utiliser dans votre projet Symfony. 
         {% include '@ExcelFormulaBundle/show.html.twig' %}
     {% endblock %}
 
-2. **Les formules prises en charge**
-   
-    Le bundle prend en charge plusieurs formules, telles que :
+2. **Les formules prises en charge :**
+   Le bundle prend en charge plusieurs formules, telles que :
     * `MOYENNE` (Moyenne)
     * `SUM` (Somme)
     * `PRODUCT` (Produit)
